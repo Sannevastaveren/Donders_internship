@@ -7,8 +7,8 @@ Therefore, a process that includes video compression, behavioural tracking and s
 ## Where to find what:
 ### Notebooks:
 All Google colab notebooks I have used over the course of my internship:
-- Stage_mini : Notebook with most of the deeplabcut code, synchronization and some other bits (Needs to be cleaned up)
-- Synchronization: Notebook dedicated to the methods for synchronization, contains LED and Timestamp synchronization code as well as ADC channel recognition (needs to be cleaned)
+- Stage_mini : Notebook with the deeplabcut code
+- Synchronization: Notebook dedicated to the methods for synchronization, contains LED and Timestamp synchronization code as well as ADC channel recognition
 
 ### Data:
 Nothing for now but will contain some example data and analysis results
