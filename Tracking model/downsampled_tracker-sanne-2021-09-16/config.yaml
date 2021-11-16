@@ -1,0 +1,113 @@
+    # Project definitions (do not edit)
+Task: downsampled_tracker
+scorer: sanne
+date: Sep16
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /content/drive/My Drive/Stage/downsampled_tracker-sanne-2021-09-16
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\videos\trail_1_bluedownsampled.avi:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\videos\trail_1_reddownsampled.avi:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\videos\trail_1_whitedownsampled.avi:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\videos\trail_2_whitedownsampled.avi:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\videos\trail_4_whitedownsampled.avi:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\trail_4_bluedownsampled:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\trail_3_whitedownsampled:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\trail_2_reddownsampled:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\trail_2_greendownsampled:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\trail_1_white(2)downsampled:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\trail_1_greendownsampled:
+    crop: 0, 325, 0, 256
+  ? D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\rat_training_OS_ecm_1_t0013_2018downsampled
+  : crop: 0, 325, 0, 256
+  ? D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\rat_training_OS_N_S_SD_CI_1_t0001_2019downsampled
+  : crop: 0, 325, 0, 256
+  ? D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\rat_training_OS_N_S_SD_CI_1_t0004_raw_2020downsampled
+  : crop: 0, 325, 0, 256
+  ? D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\rat_training_OS_N_S_SD_CI_1_t0007_raw_2020downsampled
+  : crop: 0, 325, 0, 256
+  ? D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\rat_training_OS_rgs14_5_24h_72h_inc_216_221_t0001_2019downsampled
+  : crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\rat1downsampled:
+    crop: 0, 325, 0, 256
+  D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\rat2downsampled:
+    crop: 0, 325, 0, 256
+  ? D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\rat_training_OS_SERT_5d_t0001downsampled
+  : crop: 0, 325, 0, 256
+  ? D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\rat_training_OS_SERT_5d_t0009downsampled
+  : crop: 0, 325, 0, 256
+  ? D:\Gebruikersmap\Sanne\Documents\DLC\downsampled_tracker-sanne-2021-09-16\labeled-data\rat_training_OS_SERT_5d_t0020downsampled
+  : crop: 0, 325, 0, 256
+
+bodyparts:
+- Head
+- Sideleft
+- Sideright
+- Spine1
+- Tailbase
+- Tailmiddle
+- Tailend
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - Head
+  - Sideleft
+- - Head
+  - Sideright
+- - Sideleft
+  - Spine1
+- - Sideright
+  - Spine1
+- - Spine1
+  - Tailbase
+- - Tailbase
+  - Tailmiddle
+- - Tailmiddle
+  - Tailend
+- - Head
+  - Spine1
+skeleton_color: white
+pcutoff: 0.6
+dotsize: 3
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 3
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

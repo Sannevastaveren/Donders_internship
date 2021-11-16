@@ -1,0 +1,6 @@
+model_checkpoint_path: "/content/drive/My Drive/Stage/downsampled_tracker-sanne-2021-09-16/dlc-models/iteration-2/downsampled_trackerSep16-trainset95shuffle1/train/snapshot-180000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Stage/downsampled_tracker-sanne-2021-09-16/dlc-models/iteration-2/downsampled_trackerSep16-trainset95shuffle1/train/snapshot-140000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Stage/downsampled_tracker-sanne-2021-09-16/dlc-models/iteration-2/downsampled_trackerSep16-trainset95shuffle1/train/snapshot-150000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Stage/downsampled_tracker-sanne-2021-09-16/dlc-models/iteration-2/downsampled_trackerSep16-trainset95shuffle1/train/snapshot-160000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Stage/downsampled_tracker-sanne-2021-09-16/dlc-models/iteration-2/downsampled_trackerSep16-trainset95shuffle1/train/snapshot-170000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Stage/downsampled_tracker-sanne-2021-09-16/dlc-models/iteration-2/downsampled_trackerSep16-trainset95shuffle1/train/snapshot-180000"
