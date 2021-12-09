@@ -10,6 +10,16 @@ All Google colab notebooks I have used over the course of my internship:
 - Stage_mini : Notebook with the deeplabcut code
 - Synchronization: Notebook dedicated to the methods for synchronization, contains LED and Timestamp synchronization code as well as ADC channel recognition
 
+### 3rd_Party_Code
+contains the code I have used from other people
+
+*   [cross correlation from makeability_lab](https://makeabilitylab.github.io/physcomp/signals/ComparingSignals/index.html)
+    > written by Professor Jon E. Froehlich at the University of Washington along with feedback from students
+*   [deeplabcut_utils](https://github.com/DeepLabCut/DLCutils/blob/ed95860a7331f2ba37044711faf9638a7c5e6ab5/Demo_loadandanalyzeDLCdata.ipynb)
+
+### Code:
+Contains all the different scripts ive used for extraction and compression
+
 ### Data:
 Nothing for now but will contain some example data and analysis results
 
