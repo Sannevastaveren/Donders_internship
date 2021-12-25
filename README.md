@@ -9,6 +9,7 @@ Therefore, a process that includes video compression, behavioural tracking and s
 All Google colab notebooks I have used over the course of my internship:
 - Stage_mini : Notebook with the deeplabcut code
 - Synchronization: Notebook dedicated to the methods for synchronization, contains LED and Timestamp synchronization code as well as ADC channel recognition
+- Pipeline: Notebook with all finalized code that was used in the end and the pipeline itself
 
 ### 3rd_Party_Code
 contains the code I have used from other people
