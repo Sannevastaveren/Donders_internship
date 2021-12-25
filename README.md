@@ -21,7 +21,7 @@ contains the code I have used from other people
 Contains all the different scripts ive used for extraction and compression
 
 ### Data:
-Nothing for now but will contain some example data and analysis results
+Nothing for now as the data is too big for github
 
 ### Graphs:
-Nothing for now but will contain analysis graphs and other pictures relating to results that can be used in the paper
+Contains the big neuron firemap plot
